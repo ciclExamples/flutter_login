@@ -61,9 +61,18 @@ class _LoginPageState extends State<LoginPage> {
     if(formState.validate()){
       formState.save();
       try{
-        FirebaseAuth user = await FirebaseAuth.instance.signInWithEmailAndPassword(email: _email, password: _password);
-        print(user);
-        // Navigator.push(context, MaterialPageRoute(builder: (context) => Home(user)));
+        AuthResult authResult = await FirebaseAuth.instance.signInWithEmailAndPassword(email: _email, password: _password);
+        // final FirebaseUser user = (await _auth.signInWithCredential(credential)).user;
+        // AuthCredential credential = EmailAuthProvider.getCredential(
+        //     email: _email,
+        //     password: _password,
+        //   );
+        // AuthResult authResult = await FirebaseAuth.instance.signInWithCredential(credential);
+        //print('Usuario: ');
+        FirebaseUser user = authResult.user;
+        //print(user.email);
+        
+        Navigator.push(context, MaterialPageRoute(builder: (context) => Home(user: user)));
       }catch(e){
         print(e);
       }
