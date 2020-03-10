@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "120056240331",
+    "firebase_url": "https://ciclaapp00.firebaseio.com",
+    "project_id": "ciclaapp00",
+    "storage_bucket": "ciclaapp00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120056240331:android:8399cfc8c17157e012a34e",
+        "android_client_info": {
+          "package_name": "com.example.cicla_app_00"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120056240331-v2ars797g6arj1j9tfp3bs7tvn1d4k3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb7rU0kE6aKbODLWJ5DSBeM_pj1cV1MpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120056240331-v2ars797g6arj1j9tfp3bs7tvn1d4k3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120056240331:android:d66942e5b77b89c312a34e",
+        "android_client_info": {
+          "package_name": "com.example.cicla_app_01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120056240331-v2ars797g6arj1j9tfp3bs7tvn1d4k3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb7rU0kE6aKbODLWJ5DSBeM_pj1cV1MpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120056240331-v2ars797g6arj1j9tfp3bs7tvn1d4k3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
